@@ -10,13 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bfdb732-4807-4665-9e9b-cc398766063e" name="Changes" comment="index.jsp_lat&amp;lon">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/WifiApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/WifiApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/wifiApiService/WifiApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/wifiApiService/WifiApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/wifiApiService/WifiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/wifiApiService/WifiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +26,7 @@
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -95,43 +92,20 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="wifi" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.82">
-    <configuration name="GsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mission1.db.GsonTest" />
-      <module name="mission1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mission1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Location" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mission1.db.Location" />
-      <module name="mission1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mission1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WifiApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mission1.WifiApiTest" />
+      <option name="MAIN_CLASS_NAME" value="WifiApiTest" />
       <module name="mission1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mission1.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +114,6 @@
       </method>
     </configuration>
     <configuration name="map-test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/map-test.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="map-test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/map-test.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="wifi-api.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/wifi-api.jsp">
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="false">
@@ -237,20 +205,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GsonTest" />
-      <item itemvalue="Application.Location" />
       <item itemvalue="Application.WifiApiTest" />
-      <item itemvalue="JavaScript Debug.map-test.html" />
-      <item itemvalue="JavaScript Debug.wifi-api.jsp" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.82" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Location" />
         <item itemvalue="Application.WifiApiTest" />
         <item itemvalue="JavaScript Debug.map-test.html" />
-        <item itemvalue="JavaScript Debug.map-test.html" />
-        <item itemvalue="Application.GsonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +230,7 @@
       <workItem from="1699087096739" duration="66000" />
       <workItem from="1699087170648" duration="25000" />
       <workItem from="1699087210393" duration="151000" />
-      <workItem from="1699087370664" duration="52779000" />
+      <workItem from="1699087370664" duration="85280000" />
     </task>
     <task id="LOCAL-00001" summary="first commit.">
       <option name="closed" value="true" />
@@ -303,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699182319000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="delete unnecessary initialization file.">
+      <option name="closed" value="true" />
+      <created>1699260934411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699260934411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Organize file paths.">
+      <option name="closed" value="true" />
+      <created>1699260987251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699260987251</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,25 +291,27 @@
     <MESSAGE value="sources" />
     <MESSAGE value="libraries" />
     <MESSAGE value="index.jsp_lat&amp;lon" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.jsp_lat&amp;lon" />
+    <MESSAGE value="delete unnecessary initialization file." />
+    <MESSAGE value="Organize file paths." />
+    <option name="LAST_COMMIT_MESSAGE" value="Organize file paths." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/wifiApiService/WifiService.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/WifiApiTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/wifiApiService/WifiService.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiApi.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
