@@ -9,10 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfdb732-4807-4665-9e9b-cc398766063e" name="Changes" comment="index.jsp_lat&amp;lon">
+    <list default="true" id="3bfdb732-4807-4665-9e9b-cc398766063e" name="Changes" comment="create get coordinate jsp file">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +25,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -89,6 +91,8 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/jspFile" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/jsFile" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -100,12 +104,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.82">
-    <configuration name="WifiApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WifiApiTest" />
+    <configuration name="HostAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mission1.db.HostAddress" />
       <module name="mission1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.example.mission1.db.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,13 +209,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WifiApiTest" />
+      <item itemvalue="Application.HostAddress" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.82" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WifiApiTest" />
-        <item itemvalue="JavaScript Debug.map-test.html" />
+        <item itemvalue="Application.HostAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +233,7 @@
       <workItem from="1699087096739" duration="66000" />
       <workItem from="1699087170648" duration="25000" />
       <workItem from="1699087210393" duration="151000" />
-      <workItem from="1699087370664" duration="85280000" />
+      <workItem from="1699087370664" duration="123732000" />
     </task>
     <task id="LOCAL-00001" summary="first commit.">
       <option name="closed" value="true" />
@@ -280,7 +283,47 @@
       <option name="project" value="LOCAL" />
       <updated>1699260987251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="db java class (lat&lt;-&gt;lon api error)">
+      <option name="closed" value="true" />
+      <created>1699347084513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699347084513</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update library&amp;xml">
+      <option name="closed" value="true" />
+      <created>1699347130383</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699347130383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create load api jsp file">
+      <option name="closed" value="true" />
+      <created>1699347194456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699347194456</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create get coordinate jsp file">
+      <option name="closed" value="true" />
+      <created>1699347225424</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699347225424</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor: grouping functiong &amp; var">
+      <option name="closed" value="true" />
+      <created>1699599355567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699599355567</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,16 +336,16 @@
     <MESSAGE value="index.jsp_lat&amp;lon" />
     <MESSAGE value="delete unnecessary initialization file." />
     <MESSAGE value="Organize file paths." />
-    <option name="LAST_COMMIT_MESSAGE" value="Organize file paths." />
+    <MESSAGE value="db java class (lat&lt;-&gt;lon api error)" />
+    <MESSAGE value="update library&amp;xml" />
+    <MESSAGE value="create load api jsp file" />
+    <MESSAGE value="create get coordinate jsp file" />
+    <MESSAGE value="refactor: grouping functiong &amp; var" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: grouping functiong &amp; var" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java</url>
-          <line>209</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java</url>
           <line>63</line>
@@ -312,6 +355,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiApi.java</url>
           <line>113</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WifiApiTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
