@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfdb732-4807-4665-9e9b-cc398766063e" name="Changes" comment="design: table css">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/dbService/WifiDBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/DBDto/Wifi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/Wifi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mission1/db/loadApi/WifiDBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsFile/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsFile/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/load-api.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/load-api.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="3bfdb732-4807-4665-9e9b-cc398766063e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +225,7 @@
       <workItem from="1699087370664" duration="180317000" />
       <workItem from="1699779573227" duration="83000" />
       <workItem from="1699779667339" duration="120000" />
-      <workItem from="1699779793842" duration="10177000" />
+      <workItem from="1699779793842" duration="10487000" />
     </task>
     <task id="LOCAL-00001" summary="first commit.">
       <option name="closed" value="true" />
@@ -345,7 +331,47 @@
       <option name="project" value="LOCAL" />
       <updated>1699599619181</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="build: update xml">
+      <option name="closed" value="true" />
+      <created>1699790162206</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699790162206</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: datatype">
+      <option name="closed" value="true" />
+      <created>1699790230892</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699790230892</updated>
+    </task>
+    <task id="LOCAL-00016" summary="docs: add dependency">
+      <option name="closed" value="true" />
+      <created>1699790257580</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699790257580</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: create DBInterface">
+      <option name="closed" value="true" />
+      <created>1699790338337</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699790338337</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor:">
+      <option name="closed" value="true" />
+      <created>1699790378399</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699790378399</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +391,12 @@
     <MESSAGE value="refactor: grouping functiong &amp; var" />
     <MESSAGE value="feat: add dependency" />
     <MESSAGE value="design: table css" />
-    <option name="LAST_COMMIT_MESSAGE" value="design: table css" />
+    <MESSAGE value="build: update xml" />
+    <MESSAGE value="fix: datatype" />
+    <MESSAGE value="docs: add dependency" />
+    <MESSAGE value="feat: create DBInterface" />
+    <MESSAGE value="refactor:" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
