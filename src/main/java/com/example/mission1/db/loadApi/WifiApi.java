@@ -1,11 +1,11 @@
 package com.example.mission1.db.loadApi;
 
+import com.example.mission1.db.dbService.WifiDBService;
 import com.google.gson.Gson;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import com.example.mission1.db.DBDto.Wifi;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

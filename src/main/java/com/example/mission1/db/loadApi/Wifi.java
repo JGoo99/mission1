@@ -1,4 +1,4 @@
-package com.example.mission1.db.DBDto;
+package com.example.mission1.db.loadApi;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.Getter;
