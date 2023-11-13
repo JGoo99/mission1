@@ -8,7 +8,7 @@
 
 <img width="1440" alt="main_page" src="https://github.com/JGoo99/mission1/assets/126454114/367f2020-c8c1-417f-aba1-5e12628d43b2">
 
-<br/><br/><br/>
+<br/><br/>
 
 # 목차
 
@@ -20,7 +20,7 @@
 - [한계](#한계)
 - [정보](#정보)
 
-<br/><br/><br/>
+<br/><br/>
 
 # 개요
 
@@ -30,7 +30,7 @@
 - 프로젝트 기간 : 2023/11/1 - 2023/11/13
 - 언어 및 파일 : `JAVA` & `JAVASCRIPT` & `JSP`
 
-<br/><br/><br/>
+<br/><br/>
 
 # 설명 및 사용법
 
@@ -135,7 +135,7 @@
 
 > `검색 기록 조회` 탭에서 확인할 수 있으며, 최근 기록 5개를 확인할 수 있다. 각각 내 위치를 검색한 기록과 와이파이 상세정보를 조회한 기록이 표시되며 삭제 기능이 구현되어 있다.
 
-<br/><br/><br/>
+<br/><br/>
 
 # 파일 설명
 
@@ -149,14 +149,14 @@
 - `mariadb-java-client-3.0.11.jar` : mariadb 데이터베이스와 연동하기 위함.
 - `servlet-api.jar` : 톰캣을 통해 요청 http를 사용하기 위함.
 
-<br/><br/>
+<br/>
 
 ### 내부 라이브러리
 
 - `logback` : 웹 에러를 디버깅하기 위함.
 - `gson` : json 데이터를 더 편리하게 다루기 위함.
 
-<br/><br/><br/>
+<br/><br/>
 
 ## java code
 
@@ -170,7 +170,7 @@ mariadb 에서의 curd를 java class 에서 구현한 소스를 담아둔 디렉
 - `WifiDBService` : open api의 공공와이파이 DB를 다룸. (table : wifi_info)
 - `BookmarkDBService_G` : DB에 연결하기 위해 사용되는 공통 변수를 설정함.
 
-<br/><br/>
+<br/>
 
 ### loadApi
 
@@ -179,13 +179,13 @@ open api 를 가져오기 위한 자바 소스를 담아둔 디렉토리.
 - `Wifi` : 한 개의 와이파이에 대한 정보들을 변수로 설정하여, json 데이터를 읽어올 때 사용함.
 - `WifiApi` : 공공데이터에 접근하여 DB에 담는 로직.
 
-<br/><br/>
+<br/>
 
 ## web
 
 json & javascript 를 사용함.
 
-<br/><br/>
+<br/>
 
 ### bookmark
 
@@ -199,19 +199,19 @@ json & javascript 를 사용함.
 - `wifi-delete.jsp` : 즐겨찾기에 등록된 와이파이 삭제
 - `wifi-list.jsp` : 즐겨찾기 목록
 
-<br/><br/>
+<br/>
 
 ### include
 
 - `menu.jsp` : 모든 페이지에 공통적으로 들어가는 메뉴탭을 따로 파일로 만들어 처리.
 
-<br/><br/>
+<br/>
 
 ### jsFile
 
 - `location.jsp` : 위치정보 접근 요청, 가져오기 기능이 구현
 
-<br/><br/>
+<br/>
 
 ### 그 외
 
@@ -220,7 +220,7 @@ json & javascript 를 사용함.
 - `search-history.jsp` : 검색 기록
 - `wifi-detail.jsp` : 와이파이 상세정보
 
-<br/><br/><br/>
+<br/><br/>
 
 # 한계 및 제한사항
 
