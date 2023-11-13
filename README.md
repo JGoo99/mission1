@@ -236,6 +236,8 @@ open api를 데이터 베이스에 저장하는 것으로부터 모든 기능이
 
 # 정보
 
-name : 구진
-email : 465112jin@gmail.com
-notion : https://goo99.notion.site/
+> name : 구진
+>
+> email : 465112jin@gmail.com
+>
+> notion : https://goo99.notion.site/
